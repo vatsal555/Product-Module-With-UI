@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node index.ts",
+    "start": "tsc",
     "dev": "nodemon index.ts",
-    "build": "tsc"
+    "build": "ts-node index.ts"
   },
   "dependencies": {
     "@types/cors": "^2.8.17",
